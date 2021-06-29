@@ -1,0 +1,51 @@
+   .fsea{
+      color: purple ;
+      
+   }
+   label{
+      color: green
+   }
+   legend{
+      color: blue
+   }
+  html{ background-image: url("/storage/emulated/0/html/fsea.png");
+        background: linear-gradient(white,aqua,blue,navy);      
+       
+  }
+  .body{
+  		background-color: white;
+  		text-align:right;
+  		position:relative;top:50%;		
+  		}
+  .radio{
+  		padding:20px;			
+  }
+  .university {        
+        position:relative;top:-100px;
+        text-align:center;
+        
+  }
+  .select{
+        
+        margin:0 40% 0 40%;
+        position:relative;top:-75px;
+        position:relative;left:-18px;
+        height:30px;
+        background:linear-gradient(white,aqua,blue,navy);      
+        
+  }
+  .submit{
+        position:relative;left:-120px;
+        border-radius:30px;
+        width:75px;
+        background:linear-gradient(white,aqua,blue,navy);      
+        margin-top:-50px;
+  }
+  input[type="password"]{
+        border:none;
+        border-bottom:2px solid #0094ff;
+        placeholder-align:center; 
+  }
+ input placeholder{
+        text-align:center;
+  }
