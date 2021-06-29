@@ -166,7 +166,7 @@ nav img {
 header {
 	width:100%;
 	height:400px;
-	background-image:url("images/wave.jpg");
+	background-image:url("../images/wave.jpg");
 	background-size:cover;
 	position:relative;
 	margin:0px;
