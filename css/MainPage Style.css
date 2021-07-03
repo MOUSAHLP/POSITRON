@@ -51,6 +51,11 @@ aside{
 	flex-wrap:wrap;
 	z-index:10;
 }
+@media (max-width:768px){
+	aside{
+		min-height:600px;
+	}
+}
 aside:hover .button{
 	  transform: rotate(90deg) ;
 	  left:40%;
@@ -145,6 +150,17 @@ nav{
 	margin:0px;
 	top:0px;
 	z-index:10;
+}
+@media (max-width:768px){
+	nav{
+		height: 90px;
+	}
+	nav .home, aside .button{
+		width: 90px;
+	}
+	nav .logout{
+		width: 90px;
+	}
 }
 nav .home{
 	width:70px;
@@ -433,6 +449,11 @@ footer .contact-us h2{
     color: #FFC801;
     font-size: 60px;
     margin: 30px auto;
+}
+@media (max-width:768px){
+	footer .contact-us img{
+		margin: 60px auto;
+	}
 }
 footer .contact-us form{
 	width:100%;
