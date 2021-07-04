@@ -51,7 +51,7 @@ aside{
 	flex-wrap:wrap;
 	z-index:10;
 }
-@media (max-width:768px){
+@media (max-width:992px){
 	aside{
 		min-height:600px;
 	}
@@ -151,27 +151,19 @@ nav{
 	top:0px;
 	z-index:10;
 }
-@media (max-width:768px){
+@media (max-width:992px){
 	nav{
 		height: 90px;
 	}
-	nav .home, aside .button{
+	nav .home,nav .logout , aside .button{
 		width: 90px;
-	}
-	nav .logout{
-		width: 90px;
+		height: 90px;
 	}
 }
-nav .home{
+nav .home , nav .logout{
 	width:70px;
 	margin-top:5px;
 	margin-right:5px;
-}
-nav .logout{
-	width: 60px;
-	margin-right:5px;
-	position: relative;
-	top: -7px;
 }
 nav .years{
 	display: flex;
@@ -226,9 +218,9 @@ header q span{
 }
 header img{
 	position:absolute;
-	bottom:-180px;left:50%;
+	bottom:-220px;left:50%;
 	transform:translate(-50%,-50%);
-	width:180px;
+	width:200px;
 }
 @media(min-width:990px){
 	header img{
@@ -351,10 +343,10 @@ section .article img{
 }
 section .article h3{
 	text-align:center;
-	font-size:35px;
+	font-size:calc(var(--main-font) + 5px);
 }
 section .article .download a{
-	width:250px;
+	width:240px;
 	text-align:center;
 	background-color:var(--secondary-color);
 	border:none;
@@ -362,7 +354,7 @@ section .article .download a{
 	color:#fff;
 	border-radius:15px;
 	font-size:var(--main-font);
-	margin-bottom:5px;
+	margin-bottom:20px;
 	text-decoration:none;
 	z-index:2;
 	pointer-events:noe;
@@ -435,7 +427,7 @@ footer .qoute del{
 }
 footer .qoute strong{
 	color: #FFC801;
-    font-size: 45px;
+    font-size: 41px;
 }
 footer .contact-us{
 	display:flex;
@@ -450,7 +442,7 @@ footer .contact-us h2{
     font-size: 60px;
     margin: 30px auto;
 }
-@media (max-width:768px){
+@media (max-width:992px){
 	footer .contact-us img{
 		margin: 60px auto;
 	}
@@ -536,7 +528,7 @@ footer .rights span{
     margin-right: 50px;
 }
 /*end footer*/
-@media (min-width:768px){
+@media (min-width:992px){
 	/* .container{
 		width:730px;
 	} */
@@ -544,11 +536,7 @@ footer .rights span{
 	.button:hover{
 		left:0;
 	}
-	aside{
-		width:50%;
-	}
-
-	}
+}
 	@media (min-width:992px){
 	/* .container{
 	width:970px;
