@@ -309,11 +309,11 @@
 	<div class="contact-us">
   		<img src="images/positron2.png">
   		<h2>contact with us</h2>
-  		<form>
+  		<form action="php/index.php" method="post">
   			<div>
-  			<input type="text" placeholder="Username" minlength="2" maxlength="20" required auto-focus class="input">
-  			<input type="email" placeholder="email" minlength="2" maxlength="20" required class="input">
-  			<input type="text area" placeholder="write about yourself" minlength="2" maxlength="200" required class="input text">
+  			<input type="text" name="name-contact-us" placeholder="Username" minlength="2" maxlength="20" required auto-focus class="input">
+  			<input type="email" name="email-contact-us" placeholder="email" minlength="2" maxlength="20" required class="input">
+  			<input type="text area" name="text-contact-us" placeholder="write about yourself" minlength="2" maxlength="200" required class="input text">
   			<input type="submit" value="send" name="contact-us">
   			</div>
   		</form>
